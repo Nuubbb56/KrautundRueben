@@ -1,0 +1,9 @@
+Falls LocalDB nicht funktioniert:
+- SQL Server Express Beispiel:
+  Server=.\SQLEXPRESS;Database=KrautUndRuebenDB;Trusted_Connection=True;
+
+Die Standard-Verbindungszeichenfolge steht in:
+Data/Database.cs
+
+Optional kann sie ohne Code-Aenderung per Umgebungsvariable ueberschrieben werden:
+KRAUT_UND_RUEBEN_CONNECTION
